@@ -1,7 +1,7 @@
 FROM ubuntu:16.4
 
 RUN apt-get update \
- && apt-get upgrade -y \
- && apt-get install mc -y \
+ && apt-get -y upgrade \
+ && apt-get -y install mc \
  
  WORKDIR /root
